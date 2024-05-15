@@ -1,4 +1,4 @@
-package aula9.aula9_AC2;
+package aula9_AC2;
 
 import java.util.Scanner;
 
