@@ -1,4 +1,4 @@
-package aula7.aula7_AC2;
+package aula7_AC2;
 
 import java.util.Scanner;
 
