@@ -1,0 +1,65 @@
+		Anotações POO 04/09
+
+	- Quando não declarado >public< o java irá entender que se trata de um >privado<.
+	
+	- Java é uma linguagem case sensitive
+
+	- O método que está numa classe fora da > public static void main(String[] args){} < é antecidido de um > void < que trata-se da tipagem, o > void < é para indicar um valor nulo.
+
+	- MÉTODO CONSTRUTOR:
+
+public class Pessoa{
+    String nome;
+    int idade;
+    double altura;
+
+    Pessoa(String nome, int idade, double altura){
+        this.nome = nome;
+        this.idade = idade;
+        this.altura = altura;
+    }
+
+    String descricao(){
+        return
+            "Nome:     " +this.nome + "\n"+ 
+            "Idade     " +this.idade + "\n"+
+            "Altura:   " +this.altura + "\n";
+    }
+
+
+	- É importante ter em mente que é preciso evitar trabalhar de forma 	estrututurada, onde tudo se é construido na classe main, na verdade é 	preciso trabalhar com classes distintas e aprender a relacioná-las.
+		"A classe principal não deveria estar atarefada com atributos e 	métodos que uma classe objeto poderia ter"
+
+	- No método construtor as variáveis são vistas como "parâmetros". Os 	parâmetros devem coincidir com as variáveis de uma classe. O construtor:
+
+
+
+	Pessoa(String nome, int idade, double altura){
+            this.nome = nome;
+            this.idade = idade;
+            this.altura = altura;
+        }
+
+
+	- O construtor é nada além de um "método" para a definição de atributos 	dentor da main
+
+	- "A partir de agora eu não vou ficar contatenando as coisas na main, vou 		fazer isso no método de uma classe
+
+	- A partir de agora, quem vai executar as ações e fazer as funções será a 	classe objeto.
+
+	- a Main vai ficar assim:
+
+
+
+    public class Main{
+        public static void main(String[] args){
+
+            Pessoa p1 = new Pessoa("Aristeu", 42, 1.78);
+            Pessoa p2 = new Pessoa("Elma", 19, 1.67);
+
+            System.out.println(p1.descricao());
+            System.out.println(p2.descricao());
+    }
+
+	
+	- 	
