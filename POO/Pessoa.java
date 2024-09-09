@@ -20,7 +20,7 @@ class Pessoa{
 
 }
 
-public static void main(String[] args) throws Exception{
+static void main(String[] args){
 
     Pessoa p1 = new Pessoa("Alberto Souza Lima", "1997-11-10", 26, 1.76);
     Pessoa p2 = new Pessoa("Isabela Alves Carvalho", "2005-07-10",19, 1.57);
