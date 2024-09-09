@@ -1,4 +1,4 @@
-public class Produto{
+class Produto{
     String nome;
     String marca;
     double custo;
@@ -19,8 +19,8 @@ public class Produto{
     }
 }
 
-public static void main(String[] args){
-
+static void main(String[] args){
+    
     Produto prod1 = new Produto("Refri","Coca-Cola",3,8);
     Produto prod2 = new Produto("Escova dental","Colgate",3, 15);
     Produto prod3 = new Produto("Papel Higiênico","Neve",10,45.76);
