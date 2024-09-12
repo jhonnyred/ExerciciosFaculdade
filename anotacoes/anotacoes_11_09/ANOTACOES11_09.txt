@@ -1,0 +1,31 @@
+	A aula hoje começou trabalhando o conceito de >try e >catch<.
+	
+	Posteriormente o profesor trata do encapsulamento, para isso é importante a noção de modificadores de acesso.
+
+	O professor começa então com os MODIFICADORES NÃO ACESSÍVEIS.
+
+	PUBLICO - atributos públicos podem ser acessados livremente de fora da classe
+
+	PRIVADO - Atributos privados, por outro lado, não podem ser acessados de fora da classe. Ou seja, somente a propria classe tem dominio sobre um atributo privado. Para acessar os atributos privados é necessário o uso do comando >get<, ou dos "getters".  
+
+	Além dos "getters" que serve para acessar os atributos, existem os "setters" que servem para definir esses atributos, exemplo:
+
+public class Pessoa{
+	private string nome;
+	
+	public void setNome;(String nome){
+		this.nome = nome;
+	}
+}
+
+
+	Classe de erro, o professor mostra um exemplo chamado ValorInvalidoException, que é uma classe de exceção personalizada em que ele utiliza essa para lançar erros específicos relacionados a vlaores inválidos.
+	É um forma de "criar" novas mensagens de erro quando seu programa atinge um erro ou segue um caminho que o usuário não deveria seguir, apesar de ser possível executar.
+
+	Para o exercício o professor pede para criar 2 reposítório, um chmado conta e outro chamdo filme, basciamente 2 projetos.
+
+	Professor pediu para instalar o git.
+
+	com git commit vc está enviando para um repositório local, com o comando >git push< vc está enviando a um repositório remoto, na nuvem do git, o conjunto de gits locais e gits remotos é o que chamamos de github.
+
+	
