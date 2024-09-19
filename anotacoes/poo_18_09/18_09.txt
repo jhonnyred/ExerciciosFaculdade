@@ -1,0 +1,24 @@
+ANOTAÇÕES POO 18/09
+
+
+	O tópico de hoje é sobrecarga e refatoração.
+
+	É possível ter 2 métodos da com mesmo nome na mesma classe, desde que os métodos possuam parâmetros diferentes.
+
+	A SOBRECARGA ou OVERLOADING é um conceito que permite a formulação de diversos métodos ou funções que posusem o mesmo nome, mas com diferentes tipo e quantidades de parâmetros.
+
+	os dois pontos ":" pode ser entendido como o operador "in" de python, como por exemplo:
+
+for(n : list){
+result += n;
+}
+
+	O método anterior "(int i; i<list.length(); i++)" é utilizado quando quero percorrer por cada elemento desta lista singularmente.
+	
+	Como odo método os construtorestambém não ficam de fora disso e podem ser sobrescritos.
+
+	O professor enfatisa o autor martin fowler, necessário para códigos limpos, refatoração e demais aspectos importantes relacionados a programação.
+	
+	A refatoraçao nada mais é que a facilitaçao de alterações no código, assim cria-se um arquivo para a main e outro para as demais classes que irão protagonizar dentro da main
+
+	
